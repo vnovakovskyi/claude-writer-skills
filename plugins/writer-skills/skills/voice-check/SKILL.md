@@ -112,14 +112,19 @@ From the samples, describe the author in 5–8 bullets:
 Two cautions:
 
 - **Samples may be AI-assisted too.** Don't learn a feature that appears in
-  `references/tells.md`; the most reliable samples are unedited writing —
+  the tells files you load in Step 4; the most reliable samples are unedited writing —
   messages, notes, drafts, talk transcripts.
 - **Samples in another language** give rhythm and attitude, not vocabulary.
 
 ## Step 4 — Read for tells
 
-Read `references/tells.md`: **Universal** plus the section for the text's
-language. Then go through the text — the front-matter title and excerpt first,
+Load the tells: `references/tells/universal.md`, plus the one file for the
+text's language — `en.md`, `uk.md`, or `ru.md` in the same folder. Don't load
+the other languages' files. For a language without a file, use `universal.md`
+alone and say in the report that language-specific tells were not checked.
+A text that mixes languages gets the file of its main language.
+
+Then go through the text — the front-matter title and excerpt first,
 then the body paragraph by paragraph — looking at:
 
 1. **Typography and formatting** — dashes, bold, emoji, lists, headings.

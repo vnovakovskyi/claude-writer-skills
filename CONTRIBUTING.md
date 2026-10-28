@@ -109,8 +109,9 @@ submitting:
 - **Helper scripts** are `python3`, standard library only. They print signals
   with line numbers and leave the judgment to the skill.
 - **Languages:** English, Ukrainian, and Russian are supported today. Adding a
-  language means adding it everywhere it is listed: a section in
-  `skills/voice-check/references/tells.md`, the word and pattern tables plus
+  language means adding it everywhere it is listed: a file
+  `skills/voice-check/references/tells/<code>.md` (keep `universal.md` free of
+  any one language's examples), the word and pattern tables plus
   `detect_lang` and `--lang` in both scripts, and [docs/skills.md](docs/skills.md).
 - **Markdown:** plain GitHub-flavored Markdown, English, wrap reasonably.
 - **Keep the README short.** It says what the project is, how to install it, and
@@ -153,7 +154,7 @@ plugins/writer-skills/              the plugin with the three skills
   skills/coherence-check/SKILL.md
   skills/coherence-check/scripts/skeleton.py
   skills/voice-check/SKILL.md
-  skills/voice-check/references/tells.md
+  skills/voice-check/references/tells/universal.md, en.md, uk.md, ru.md
   skills/voice-check/scripts/text_stats.py
 docs/                               user documentation beyond the README
 CHANGELOG.md                        what changed in each version
