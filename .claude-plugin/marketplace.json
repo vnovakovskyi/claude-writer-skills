@@ -1,0 +1,16 @@
+{
+  "name": "novakovskyi-writer-skills",
+  "owner": {
+    "name": "Vadym Novakovskyi",
+    "url": "https://github.com/vnovakovskyi"
+  },
+  "description": "Claude Code skills that review an article or a draft before you publish it: fact-check → coherence-check → voice-check.",
+  "plugins": [
+    {
+      "name": "writer-skills",
+      "source": "./plugins/writer-skills",
+      "description": "Skills that check an article or a draft before you publish it: whether what it says is true, whether it holds together as one piece, and whether it sounds like a person wrote it.",
+      "category": "productivity"
+    }
+  ]
+}

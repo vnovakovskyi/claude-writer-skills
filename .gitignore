@@ -1,0 +1,13 @@
+# IDE and editor project files
+.idea/
+.vscode/
+
+# Python bytecode left by the helper scripts
+__pycache__/
+*.py[cod]
+
+# Claude Code local, per-developer settings
+.claude/settings.local.json
+
+# macOS
+.DS_Store
