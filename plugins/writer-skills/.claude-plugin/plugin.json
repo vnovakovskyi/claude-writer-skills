@@ -1,0 +1,13 @@
+{
+  "name": "writer-skills",
+  "version": "0.1.0",
+  "description": "Skills that check an article or a draft before you publish it: whether what it says is true, whether it holds together as one piece, and whether it sounds like a person wrote it.",
+  "author": {
+    "name": "Vadym Novakovskyi",
+    "url": "https://github.com/vnovakovskyi"
+  },
+  "homepage": "https://github.com/vnovakovskyi/claude-writer-skills",
+  "repository": "https://github.com/vnovakovskyi/claude-writer-skills",
+  "license": "MIT",
+  "keywords": ["writing", "editing", "fact-check", "coherence", "voice", "ai-tells", "articles", "blog"]
+}
