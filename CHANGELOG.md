@@ -31,6 +31,7 @@ To see which version you have installed, run `claude plugin list`.
   numbers, plus back-references and announced counts to verify.
 - `voice-check` — finds what makes a text read as AI-written, in English,
   Ukrainian, and Russian, and suggests rewrites aimed at the author's own voice
-  when given samples. `references/tells.md` holds the tells per language;
+  when given samples. `references/tells/` holds the tells: `universal.md` plus
+  one file per language, and a check loads only the text's language;
   `scripts/text_stats.py` counts rhythm, punctuation, repeated openers, and
   filler words with line numbers.

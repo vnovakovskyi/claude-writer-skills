@@ -105,8 +105,10 @@ kept, and places where a detail only you know would make the text yours. Like
 `fact-check`, it never edits the text without asking, keeps every fact intact,
 and never invents experiences or opinions for you.
 
-The full list of tells lives in
-[skills/voice-check/references/tells.md](../plugins/writer-skills/skills/voice-check/references/tells.md).
+The tells live in
+[voice-check/references/tells/](../plugins/writer-skills/skills/voice-check/references/tells/):
+`universal.md` for every text, and one file per language. A check loads the
+universal file and the file for the text's language only.
 
 ## Languages
 
